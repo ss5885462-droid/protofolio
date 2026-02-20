@@ -1,0 +1,97 @@
+*{box-sizing: border-box;margin:0;padding:0}
+
+body {
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(120deg , #ff8cff , rgb(249, 168, 222) , rgb(117, 227, 249) , rgb(54, 215, 255));
+    color: white;
+}
+
+header{
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header h1{
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+header p{
+    opacity: .9;
+    font-size: 18px;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+.card{
+    background: rgba(255, 255, 255, 0.096);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 25px;
+    margin: 20px 0;
+    box-shadow: 0 10px 25px rgba(5, 5, 5, 0.212);
+}
+
+h2{
+    margin-bottom: 15px;
+}
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill{
+    background: rgba(255, 255, 255, 0.135);
+    padding: 8px 14px;
+    border-radius: 999px;
+    font-size: 14px;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    gap: 15px;
+}
+
+.project{
+    background: rgba(255, 255, 255, 0.153);
+    padding: 18px;
+    border-radius: 15px;
+    transition: .25s;
+}
+
+.project:hover{
+    transform: translateY(-5px) scale(1.02); 
+    background: rgba(255, 255, 255, 0.08);
+}
+
+button{
+    background: white;
+    color: pink;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 999px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: .25s;
+}
+
+button:hover{
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0,.2);
+    color: rgb(236, 103, 236);
+}
+
+footer{
+    text-align: center;
+    padding: 30px 10px 40px;
+    opacity: .8;
+    font-size: 15px;
+}
