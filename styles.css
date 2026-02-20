@@ -3,7 +3,7 @@
 body {
     min-height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(120deg , #ff8cff , rgb(249, 168, 222) , rgb(117, 227, 249) , rgb(54, 215, 255));
+    background: linear-gradient(120deg , #ff61ff , rgb(250, 129, 210) , rgb(58, 214, 245) , rgb(0, 190, 237));
     color: white;
 }
 
@@ -86,7 +86,7 @@ button{
 button:hover{
     transform: scale(1.05);
     box-shadow: 0 5px 15px rgba(0, 0, 0,.2);
-    color: rgb(236, 103, 236);
+    color: rgb(82, 190, 241);
 }
 
 footer{
